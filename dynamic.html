@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"><![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>User Profile</title>
+        <meta name="description" content="User Profile">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dynamic.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bungee+Tint&family=Cascadia+Mono:ital,wght@0,200..700;1,200..        700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&        family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;        0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,        wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Suez+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bungee+Tint&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Suez+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=BBH+Bartle&family=Bebas+Neue&family=Bungee+Tint&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Suez+One&display=swap" rel="stylesheet">
+
+        <!--Font Awesome link pad-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body class="dynamic_page">
+        <header>
+         <div id="first-container-dashboard">
+            <h1 id="dashboard-heading-main">Dashboard Overview</h1>
+            <h3 id="dashboard-heading-sub"><span id="span-1">Welcome back </span><span id="span-2-user-name">Gautam</span> here your analytics summary</h3>
+         </div>
+         <div id="second-container-dashboard">
+            <!--Container for navigator-->
+            <!--First container total prediction-->
+            <div class="dashboard-nav-container">
+                <div class="content-nav-container">
+                    <span class="content-heading-nav">Total Prediction</span>
+                    <span class="content-span"  id="total_prediction">153</span>
+                </div>
+                <div class="img-nav-container">
+                    <img src="dynamic-pic-folder/all-model.png" alt="Backend_Error" class="img">
+                </div>
+            </div>
+            <!--Second container most used model-->
+            <div class="dashboard-nav-container">
+                <div class="content-nav-container">
+                    <span class="content-heading-nav">Most Used Model</span>
+                    <span class="content-span" id="most-used-model">Price Model</span>
+                </div>
+                <div class="img-nav-container">
+                    <img src="dynamic-pic-folder/most.png" alt="Backend_Error" class="img">
+                </div>
+            </div>
+            <!--Third container recent used model-->
+            <div class="dashboard-nav-container">
+                <div class="content-nav-container">
+                    <span class="content-heading-nav">Recent Used Model</span>
+                    <span class="content-span" id="recent-used-model"></span>
+                </div>
+                <div class="img-nav-container">
+                    <img src="dynamic-pic-folder/recent.png" alt="Backend_Error" class="img">
+                </div>
+            </div>
+            <!--Fourth container model selector-->
+            <div class="dashboard-nav-container">
+                <div class="content-nav-container">
+                    <span class="content-heading-nav">Models</span>
+                    <select name="model-url" id="model-list">
+                        <option  value='' disabled selected >Select Model</option>
+                    </select>
+                </div>
+            </div>
+         </div>
+        </header>
+
+        <main>
+           <section id="model-prediction">
+                <div id="model-heading-container">
+                    <h1 id="model-heading-dynamic">Try Range of Pre-Trained Model </h1>
+                     <h3 id="model-sub-heading-dynamic">Powered by insights from 20 lakh+ Delhi restaurants built to elevate performance everywhere.</h3>
+                </div>
+                <div id="models-wrapper">
+                    <!--Restaurant information wrapper-->
+                    <div id="restaurant-info-wrapper">
+                        <div class="restaurant-info-heading-wrapper">
+                            <img src="dynamic-pic-folder/information.png" alt="Backend_Error" class="img" id="img-content">
+                            <h3 class="restaurant-info-heading">
+                                Restaurant Information
+                            </h3>
+                        </div>
+                        <div class="model-query-wrapper">
+
+                            <div class="wrapper">
+                                <div class="label-wrapper">
+                                    <h3 class="label">Select Region</h3>
+                                </div>
+                                <div class="selector-wrapper">
+                                <select name="region-selector" id="region-selector" required>
+                                    <option value="none"  selected disabled>Region</option>
+                                </select>
+                                </div>
+                            </div>
+
+                            <div class="wrapper">
+                                <div class="label-wrapper">
+                                    <h3 class="label">Select Dish Name</h3>
+                                </div>
+                                <div class="selector-wrapper">
+                                    <select name="dish-name" id="dish-name-selector" required>
+                                        <option value="none" disabled selected>Dish Name </option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="wrapper">
+                                <div class="label-wrapper">
+                                    <h3 class="label">Price For Two</h3>
+                                </div>
+                                <div class="selector-wrapper">
+                                    <input type="number" name="Price" id="price-for-two" required min="100" max="10000">
+                                </div>
+                            </div>
+
+                            <div class="wrapper">
+                                <div class="label-wrapper">
+                                    <h3 class="label">Select Cuisine-Type</h3>
+                                </div>
+                                <div class="selector-wrapper">
+                                    <div id="cuisine-selector">
+                                        <!--dynamically enter span-->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="wrapper">
+                                <div class="label-wrapper">
+                                    <h3 class="label">Select Cuisine</h3>
+                                </div>
+                                <div class="selector-wrapper">
+                                    <select name="cuisine-type" id="cuisine-type-selector" required>
+                                        <option value="none" disabled selected>Cuisine</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Models prediction infomation container-->
+
+                    <div id="restaurant-info" class="show">
+                        <div class="restaurant-info-heading-wrapper">
+                            <img src="dynamic-pic-folder/preview.png" alt="Backend_Error" class="img" id="img-content">
+                            <h3 class="restaurant-info-heading">
+                                Your Restaurant Information
+                            </h3>
+
+                        </div>
+                        <div class="model-query-wrapper">
+
+                            <div class="content-wrapper">
+                                <span class="title">Region</span>
+                                <p class="content" id="region-content"></p>
+                            </div>
+                            <div class="content-wrapper">
+                                <span class="title">Dish Name</span>
+                                <p class="content" id="dish-name-content"></p>
+                            </div>
+                            <div class="content-wrapper">
+                                <span class="title">Price For Two</span>
+                                <p class="content" id="price-content"></p>
+                            </div>
+                            <div class="content-wrapper">
+                                <span class="title">Cuisine-Name</span>
+                                <p class="content" id="cuisine-name-content"></p>
+                            </div>
+                            <div class="content-wrapper">
+                                <span class="title">Cuisine-Type</span>
+                                <p class="content" id="cuisine-type-content"></p>
+                            </div>
+                           
+                        </div>
+                        <div class="button-wrapper">
+                            <button id="submit-btn">Predict</button>
+                        </div>
+                    </div>
+
+                    <div id="prediction-result-table" class="hide">
+                        <div class="prediction-result-heading-wrapper">
+                            <img src="dynamic-pic-folder/result.png" alt="Backend_Error" class="img">
+                            <h3 class="restaurant-info-heading">Model Result</h3>
+                        </div>
+                        <div id="model-confidence-wrapper">
+                            <h3 class="prediction-heading">Model Confidence</h3>
+                            <h3 class="dynamic-prediction-score-heading">92%</h3>
+                        </div>
+
+
+                        <div class="result-wrapper">
+                            <div class="result-container-1">
+                                <h3 class="result-heading">Predicted Price</h3>
+                                <span class="result-span" id="predicted-price-span">$250</span>
+                            </div>
+                            <div class="result-container-2">
+                                <h3 class=result-heading>predicted container 2</h3>
+                                <span class="result-span">prediction result</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+           </section>
+
+           <!--Recent prediction info container-->
+           <section id="recent-model-section">
+           <div id="recent-info-container">
+              <div id="recent-heading-wrapper">
+                <h3 id="recent-heading">Recent Prediction's</h3>
+              </div>
+              <div id="recent-prediction-info-wrapper">
+              </div>
+           </div>
+           </section>
+        </main>
+
+        <footer>
+              <section id="contact">
+                <div id="heading-container">
+                    <!--main heading-->
+                    <h2 class="heading-main" id="contact-heading-main">
+                        Ready to Optimize Your Restaurant Hours?
+                    </h2>
+                    <!--sub heading-->
+                    <h3 class="heading-sub-contact">Contact us</h3>
+                </div>
+                <div id="contact-form-container">
+                    <div id="mail-box-wrapper">
+                      <i class="fa-solid fa-envelope" id="mail-img"></i>
+                      <input type="text" placeholder="Sent us your message" id="contact-input">
+                        
+                    </div>
+                    <div id="send-mail-btn-container">
+                        <button class="send-mail" type="submit">Send</button>
+                         <span class="error-contact hide"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!--Ending section-->
+            <section id="last-section">
+                <div id="logo-container">
+                     <div class="img-container-logo">
+                        <!--logo svg-->
+                        <img src="main-pic-folder/website logo.png" alt="Backend_Error" class="img-logo">
+                     </div>
+                     <div id="logo-info-container">
+                        <p class="content-contact">Predicto empowers small restaurant owners and food entrepreneurs with real market insights — from trending cuisines and competitive prices to the best regions to open.</p>
+                     </div>
+                </div>
+                <div id="developer-container">
+                    <div class="content-container">
+                        <span id="dev-message">Made with love by Trickey Tech</span>
+                        <div id="dev-ul-wrapper">
+                            <ul id="dev-ul" >
+                                <!--svg will removed text later-->
+                                <li id="clipboard-li"><span class="developer-li"><i class="fa-solid fa-envelope" id="mail"></i></span>
+                                    <span id="copy-clipboard" class="hide">Copied</span>
+                                </li>
+                                <li><a href="https://github.com/geekyTech32" class="developer-li" target="_blank"><i class="fa-brands fa-github-alt" id="git"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/empower-your-business-with-data-by-gautam/" class="developer-li" target="_blank"><i class="fa-brands fa-linkedin" id='linkedin'></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </footer>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <script src="dynamic.js" async defer></script>
+    </body>
+</html>

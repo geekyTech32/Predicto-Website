@@ -1,0 +1,163 @@
+body{
+    margin:0;
+  
+}
+
+#sign-container{
+    width:50%;
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+    height:99.8vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#usersname-container{
+   padding:2rem;
+   border: 0.5px solid whitesmoke;
+   border-radius:8px;
+   background-color:rgba(3, 56, 103, 0.353);
+   margin:1.5rem;
+}
+
+#sign-heading-main{
+    font-family: "Anton";
+    
+    text-align: center;
+    letter-spacing:0.2rem;
+    font-size:2.5em;
+    color:orangered;
+    margin:0;
+    text-shadow: 1px  0px 7px whitesmoke;
+    
+}
+#sign-heading-sub{
+    display:flex;
+    color:whitesmoke;
+    justify-self: center;
+    letter-spacing: 0.2rem;
+    font-size:1em;
+    font-weight:300;
+    font-family:"Poppins";
+}
+
+form{
+    display:grid;
+    gap:3rem;
+
+}
+
+#userName, #password{
+    display:flex;
+    color:rgba(0, 0, 0, 0.703);
+    justify-content: center;
+    background:none;
+    border:none;
+    border-bottom:1px solid black;
+    font-size:1em;
+    padding:1rem;
+}
+
+
+.submit-btn{
+    width:30%;
+    display:flex;
+    justify-self: center;
+    font-size:1em;
+    padding:0.8rem;
+    font-family:"Poppins";
+    border-radius:8px;
+    justify-content: center;
+    background:none;
+    border:2px solid rgba(23, 104, 233, 0.74);
+    color:rgba(23, 104, 233, 0.74);
+    transition: 0.3s;
+}
+
+.message-box{
+    color:red;
+    margin:0;
+    text-align: center;
+    font-family:"Poppins";
+    font-size:1em;
+    letter-spacing: 0.2rem;
+}
+
+.submit-btn:hover{
+    background-color:rgb(23, 104, 233);
+    color:whitesmoke;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 5px rgba(245, 245, 245, 0.593);
+    border-color: whitesmoke;
+}
+
+#extra-option-container{
+    display:grid;
+    grid-auto-flow: column;
+    padding:2rem;
+    margin:1rem;
+    
+
+}
+
+
+
+#forgot-password-container , #create-account-container{
+    display:grid;
+    justify-content: center;
+}
+
+#reset-password-link, #create-account{
+    display:flex;
+    font-size:0.9em;
+    font-family:"Poppins";
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color:rgba(240, 248, 255, 0.751);
+}
+
+#reset-password-link:hover, #create-account:hover{
+    cursor:pointer;
+     color:aliceblue
+}
+
+@media (max-width: 480px){
+    #sign-heading-main{
+        font-size: 1.7em;
+       
+    }
+
+    #sign-heading-sub{
+        font-size:0.6em;
+        text-align: center;
+    }
+
+    #userName, #password{
+        padding:0.5em;
+    }
+
+    .message-box{
+        font-size:0.8em;
+    }
+
+    .submit-btn{
+        width:35vw;
+    }
+
+    #extra-option-container{
+        grid-auto-flow: row;
+        gap:1rem;
+        padding:0.5em
+    }
+
+    #reset-password-link ,#create-account{
+        font-size:0.7em;
+    }
+}
+
+.hide{
+    display:none;
+}

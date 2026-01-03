@@ -1,0 +1,1256 @@
+/* /*body style's*/
+body{
+ margin:0
+
+}
+/*nav-container-wrapper-1*/
+#nav-container-wrapper-1{
+    display:grid;
+    grid-auto-flow: column;
+}
+
+/*navbar container*/
+#nav-wrapper{
+    padding:1.5rem;
+    background-color:rgb(11, 0, 30);
+    border-bottom:0.2px solid white;
+    display:grid;
+    justify-content: space-between;
+    grid-template-columns: 0.75fr 0.3fr;
+    grid-auto-flow: column;
+}
+
+/*title-container*/
+#title-container{
+    display:grid;
+
+}
+
+/*title-main-container*/
+#title-main{
+    font-family:"Poppins";
+    font-weight:700;
+    font-size:1.5em;
+    display:flex;
+    color:orangered;
+    justify-content: center;
+
+}
+
+/*title-1 title main*/
+#title-1{
+    display:flex;
+    align-self: center;
+    margin:0;
+}
+
+
+/*title-sub- container*/
+#title-sub{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+
+}
+
+/*title-2 sub title*/
+#title-2{
+    font-size:1.3em;
+    color:whitesmoke;
+    letter-spacing: 0.2em;
+    font-family:"Poppins";
+    font-weight: 200;
+    margin:0;
+    display:flex;
+    align-self: center;}
+
+/*models-container-navbar*/
+#models-container-nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*models section inside navbar*/
+#models-nav{
+    color:rgba(245, 245, 245, 0.641);
+    text-decoration: none;
+    font-size:1em;
+    font-weight: 500;
+    display:flex;
+    width: 50%;
+    height:50%;
+    justify-content: center;
+    align-items: center;
+    font-family:"Poppins";
+    padding:0.5rem;
+
+}
+#models-nav:hover{
+    color:whitesmoke
+}
+
+/*restaurant-type wrapper navbar*/
+#restaurant-type-dropdown-container-nav{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*restaurant-type-dropdown nav inside navbar*/
+.restaurant-type-dropdown-nav{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    width:15vw;
+    top:5.5rem;
+    right:33.5rem;
+
+}
+
+/*restaurant-type-ul*/
+
+#restaurant-type-ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin:0;
+    width:100%;
+    padding-left:0;
+    padding:0.5rem;
+    gap:0.6rem;
+}
+/*restaurant-type li*/
+.resturant-type{
+    display:flex;
+    justify-content: center;
+    padding:0.5rem;
+}
+
+
+/*restaurant-type-container-nav*/
+#restaurant-type-container-nav{
+    height: 50%;
+    display:flex;
+}
+
+#restaurant-type-title{
+    display:flex;
+    margin:0;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:rgba(245, 245, 245, 0.641);
+    font-family:"Poppins";
+    font-weight:500;
+    font-size:1em;
+}
+
+#restaurant-type-title:hover{
+    color:whitesmoke;
+}
+/*contact-container*/
+#contact-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+/*contact-link*/
+#contact-link{
+    width:fit-content;
+    height:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+    color:rgba(245, 245, 245, 0.641);
+    font-family:"Poppins";
+    font-weight:500;
+    font-size:1em;
+}
+
+#contact-link:hover{
+    color:whitesmoke;
+}
+
+/*logon in second container*/
+#users-log-on-container{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    padding:1rem;
+
+}
+
+#sign-in{
+    border:0.5px solid whitesmoke;
+    display:grid;
+    justify-content: center;
+    text-decoration: none;
+    height:50px;
+    width:50px;
+    padding:1rem;
+    border-radius: 50%;
+    align-content: center;
+    font-family:"Poppins";
+    font-weight:200;
+    font-size:0.8em;
+    color:rgba(245, 245, 245, 0.641);
+    transition: 0.3s;
+}
+
+#sign-in:hover{
+    color:whitesmoke;
+    background-color: orangered;
+    box-shadow: 2px 2px 30px 10px  rgba(255, 68, 0, 0.175);
+}
+
+
+/*main container*/
+
+/*Section about*/
+
+#About ,#models-section{
+background: #130130;
+background: linear-gradient(147deg, rgba(19, 1, 48, 1) 13%, rgba(74, 15, 0, 1) 49%, rgba(100, 20, 32, 1) 71%, rgba(19, 1, 48, 1) 100%);
+}
+#container-wrapper-1{
+    display:grid;
+    grid-template-columns: 0.6fr 0.3fr;
+    justify-content: space-evenly;
+    padding:4rem;
+}
+
+#find-heading, #changing-heading{
+    margin:0;
+    width:50vw;
+}
+
+#find-heading{
+    font-size:2.5em;
+    color:whitesmoke;
+    font-weight:500;
+    font-family:"Poppins";
+}
+
+#changing-heading{
+    font-size:3em;
+     color:orangered;
+    font-weight:800;
+    font-family:"Poppins"
+}
+
+#changing-content{
+    font-size:1.2em;
+    font-family:"Poppins";
+    font-weight:300;
+    color:rgba(245, 245, 245, 0.722);
+    line-height:2;
+}
+
+
+
+
+.image-container{
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#insight-container{
+    width:70%;
+    padding:2rem;
+    
+
+}
+#insight-ul{
+    display:grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    padding-left:0;
+   
+
+}
+
+.span-list{
+    display:flex;
+    justify-content: center;
+    font-family:"Poppins";
+    color:whitesmoke;
+    font-weight:100;
+    font-size:1.2em;
+
+
+}
+
+.span-1{
+    font-size:2em;
+}
+
+
+#changing-model-link{
+    display:flex;
+    justify-self:flex-start;
+    border:0.5px solid whitesmoke;
+    padding:1.2rem;
+    border-radius:8px;
+    text-decoration: none;
+    font-family:"Poppins";
+    background-color:rgba(255, 68, 0, 0.592);
+    color:rgba(245, 245, 245, 0.674);
+    transition: 0.3s;
+}
+
+#changing-model-link:hover{
+   background-color:orangered;
+   color:whitesmoke;
+   box-shadow: 2px 2px 30px 10px rgba(240, 248, 255, 0.178);
+}
+/*model-feature-section*/
+
+
+.heading-container{
+    display:grid;
+    justify-content: center;
+    
+}
+.heading-main,.sub-heading{
+    margin:0.5rem;
+    display:flex;
+    justify-content: center;
+}
+.heading-main{
+    font-size:2.5rem;
+    font-family:"Poppins";
+    font-weight:700;
+    letter-spacing:0.1rem;
+    color:rgb(2, 13, 85);
+    text-shadow:1px 1px 2px orangered;
+
+}
+
+#model-section-main-heading{
+    color:orangered
+}
+#model-section-sub-heading{
+    color:whitesmoke;
+}
+
+.sub-heading{
+    font-size:1.3rem;
+    font-weight:200;
+    letter-spacing:0.2rem;
+    font-family:"Poppins";
+}
+
+.content-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 1rem;
+    padding: 2rem;
+}
+.feature-container{
+    padding:2rem;
+    border:0.2px solid black;
+    border-radius:0.5rem;
+    background: whitesmoke;
+    transition: 0.2s;
+    background-color:rgba(255, 68, 0, 0.108)
+   
+}
+
+.heading-inside{
+    font-size:1.5em;
+    font-weight:800;
+    letter-spacing:0.1rem;
+    font-family: fantasy;
+    color:rgb(23, 40, 156);
+    text-shadow: 1px 1px 1px whitesmoke;
+
+}
+
+.feature-container:hover{
+     box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.642);
+}
+
+.svg{
+    width:5vw;
+    height:5vh;
+    object-fit: contain;
+}
+.img{
+    width:6vw;
+    height:6vh;
+    object-fit: contain;
+}
+.img-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-container-model{
+    width:40vw;
+    height:70vh;
+
+}
+
+
+
+.img-logo{
+   
+    width:10vw;
+    height:15vh;
+    object-fit: contain;
+}
+
+.img-model{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    
+}
+.img-restaurant-type{
+    width:5vw;
+    height:5vh;
+    object-fit: contain;
+}
+/*section model */
+
+#model-feature{
+    padding:2rem;
+    background-color:rgb(241, 239, 239)
+}
+
+.content-container{
+    display:grid;
+    gap:2rem;
+    justify-self: center;
+
+}
+
+#logo-container{
+    display:flex;
+}
+
+.feature-overview-container{
+    padding:1rem;
+    line-height:1.5;
+    font-family:"Poppins";
+    font-weight:200;
+    line-height: 2rem;
+}
+.model-overview-container{
+    font-size:1.2em;
+    padding:1.5rem;
+    line-height: 2;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: "Poppins";
+    color:rgba(245, 245, 245, 0.585)
+
+}
+.heading{
+    letter-spacing:0.1rem;
+    color:orangered;
+    font-family:"Poppins";
+    font-weight:500;
+
+}
+
+.heading-container-inside{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.model-link-section{
+    display:grid;
+    grid-auto-flow: column;
+    gap:2rem;
+    justify-content: space-between;
+    padding:2rem;
+    grid-template-columns: auto auto;
+}
+
+.content-wrapper{
+  
+    display:grid;
+
+}
+
+.accuracy-container{
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+    padding:2rem;
+
+}
+
+
+
+.accuracy ,.trained-para-container{
+    border:0.5px solid whitesmoke;
+    padding:1.5rem;
+    border-radius:10px;
+    font-family:"Poppins";
+    font-weight:300;
+    color:whitesmoke;
+    background-color:rgba(255, 255, 0, 0.275);
+}
+
+.get-btn-container{
+    padding:1rem;
+    display:flex;
+    justify-self: center;
+}
+
+.get-btn-link{
+    border:0.5px solid whitesmoke;
+    padding:1rem;
+    background-color:rgba(255, 68, 0, 0.692);
+    color:whitesmoke;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width:15rem;
+    font-family:fantasy;
+    border-radius:10px;
+    transition: 0.5s;
+    
+}
+.get-btn-link:hover{
+    background-color:orangered;
+}
+
+/*Extra spaces section*/
+#extra-specs{
+    background-color:rgb(241, 239, 239)
+}
+#point-wrapper{
+   
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap:2rem;
+    padding:2rem;
+}
+
+.content-container-outer{
+    line-height: 1.7;
+    font-family: "Poppins";
+}
+
+.heading-main-point{
+    color:rgb(2, 13, 85);
+    font-family:fantasy;
+    font-size:1em;
+    letter-spacing:0.1rem;
+}
+
+.point-container{
+    padding:2rem;
+    background:white;
+}
+
+#heading-main-first-container{
+    color:rgb(2, 13, 85);
+    text-shadow: 2px 2px 1px rgb(255, 69, 0);
+}
+
+.heading-container-point{
+    
+    display:flex;
+    justify-content: center;
+    font-size:1.4em;
+}
+
+/*Second container*/
+#second-container{
+    display:grid;
+    grid-auto-flow: column;
+    justify-content:center;
+    grid-template-columns: 0.4fr 0.6fr;
+    gap:2rem;
+    padding:2rem;
+}
+
+.comment-section{
+    background-color:white;
+    padding:1rem;
+    display:grid;
+     background-color:rgba(255, 68, 0, 0.082);
+    justify-content: center;
+    border-radius:10px;
+    border:0.5px solid orangered;
+}
+
+.user-name-container{
+    display:grid;
+    padding:1rem;
+}
+
+.user-name,.user-company{
+    display:flex;
+    justify-content: center;
+}
+
+.user-name{
+    letter-spacing: 0.2rem;
+    font-family:fantasy;
+    font-size:1.3em;
+    color:orangered;
+    font-weight:500;
+}
+.user-company{
+    letter-spacing:0.2rem;
+    font-family:'Poppins';
+    font-size:1.2em;
+}
+
+.users-comment-container{
+    font-weight:200;
+    text-align: center;
+    line-height: 2;
+    margin:0;
+    font-family: "Poppins";
+
+}
+
+#company-ethics-heading{ 
+    color:rgb(2, 13, 85);
+    text-shadow:1px 1px 1px orangered;
+}
+
+#company-ul{
+    padding-left:0;
+    margin:0;
+}
+.company-li{
+    font-family:"Poppins";
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.571);
+    display:flex;
+    justify-content: center;
+    list-style:none;
+    font-size:1.4em;
+    padding:1rem;
+
+}
+#company-message-container{
+    border:0.5px solid rgb(252, 9, 9);
+    background-color:rgba(255, 68, 0, 0.082);
+    padding:1rem;
+    width:70%;
+    line-height:2;
+    display:flex;
+    justify-self: center;
+    border-radius:10px;
+
+}
+
+#span-2{
+    font-size:1.5em;
+    font-family:"Poppins";
+    font-weight:500;
+    color:orangered;
+}
+#company-message{
+    font-family:"Poppins";
+    font-weight:200;
+}
+
+/*Restaurant-type*/
+
+.heading-sub-restaurant-type{
+    display:flex;
+    justify-content: center;
+    font-size: 1.5em;
+    letter-spacing:0.1em;
+    font-weight:200
+}
+
+#heading-main-restaurant-type{
+    color:rgb(2, 13, 85);
+    text-shadow: 2px 2px 1px rgb(255, 69, 0);
+}
+
+#heading-sub-restaurant-type{
+    font-family:"Poppins";
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.455);
+    letter-spacing:0.2rem;
+}
+
+.type{
+    border:0.5px solid rgb(252, 9, 9);
+    background-color:rgba(255, 68, 0, 0.082);
+    border-radius:10px;
+    padding:2rem;
+}
+
+.restaurant-type-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  justify-self: center;
+}
+
+
+
+
+
+.img-heading-container{
+    display:grid;
+    grid-auto-flow:column;
+    margin:0;
+    
+    grid-template-columns: 0.5fr 0.7fr;
+
+}
+
+.img-restaurant-type{
+    align-self:center;
+    display:flex;
+    justify-self: center;
+}
+
+.restaurant{
+    font-size:1.5em;
+    color:orangered;
+    display:flex;
+    justify-content: center;
+    font-family:fantasy;
+}
+
+.restaurant-type-content{
+    padding:1rem;
+    line-height: 2;
+    margin:0;
+    font-family:"Poppins";
+    color:rgba(0, 0, 0, 0.434);
+    font-weight:300;
+}
+
+
+/*Footer contact section*/
+#contact{
+    background:orangered;
+    padding:4rem;
+}
+
+#contact-heading-main{
+    color:whitesmoke;
+}
+
+.heading-sub-contact{
+    font-family:"Poppins";
+    font-weight:200;
+    letter-spacing:0.2rem;
+}
+
+.heading-sub-contact{
+    display:flex;
+    justify-self:center;
+    font-size:2em;
+    letter-spacing:0.5rem;
+    font-weight:200;
+
+}
+#mail-box-wrapper{
+    display:grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns:0.2fr auto;
+    gap:1rem;
+}
+#svg-container{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-input{
+    display:flex;
+    justify-content: center;
+    border:none;
+    border-radius: 5px;
+    height:100%;
+
+}
+
+
+#mail-img{
+    display:flex;
+    font-size:2em;
+    justify-content: flex-end;
+    
+}
+
+#contact-form-container{
+    display:grid;
+    gap:2rem;
+    grid-template-columns: 0.7fr 0.2fr;
+    grid-auto-flow:column;
+    justify-content: center;
+}
+
+
+
+.send-mail , .error-contact{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+  font-size:1.1em;
+  font-family:fantasy;
+  border-radius: 5px;
+  padding:0.5em;
+  background-color:#130130;
+  color:whitesmoke;
+  border:none;
+
+}
+
+
+/*last section*/
+#last-section{
+    background-color:rgb(11, 0, 30);
+    padding:1rem;
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.5fr 0.3fr; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#logo-info-container{
+    font-family:"Poppins";
+    color:rgba(245, 245, 245, 0.448);
+    line-height:1.5;
+}
+
+
+
+
+#dev-message{
+    display:grid;
+    justify-content: center;
+    align-self: center;
+    font-weight:200;
+    font-size:1.2em;
+    font-family:fantasy;
+    color:rgba(245, 245, 245, 0.556)
+}
+
+.developer-li{
+    color:orangered;
+}
+#dev-ul{
+    display:flex;
+    padding-left:0;
+    margin:0;
+    list-style: none;
+    gap:1rem;
+    justify-content: center;}
+
+#mail, #git, #linkedin{
+    font-size:2em;
+    padding:1rem;
+    transition: 0.3s;
+}
+#mail:hover, #git:hover,#linkedin:hover{
+    color:whitesmoke;
+}
+#mail{
+    display:flex;
+    
+    justify-content: center;
+}
+
+#clipboard-li{
+    display:grid;
+    grid-auto-flow: row;
+    justify-content: center;
+   
+}
+
+
+#copy-clipboard{
+    color:aliceblue;
+    padding:0.5rem;
+    font-family:fantasy;
+    background-color:orangered;
+    border-radius:8px;
+}
+
+#user-comment-img{
+    background-color: whitesmoke;
+    padding:1rem;
+    border-radius: 50%;
+}
+/*hide class for thing to hide*/
+.hide{
+    display:none ;
+    animation:ease-out
+}
+
+.show{
+    animation:ease-in;
+}
+
+
+
+@media (max-width: 480px) {
+    .img-container-logo{
+        display:none
+    }
+    #nav-wrapper{
+        padding:0.5rem;
+        gap:1rem;
+        grid-template-columns: none;
+
+        justify-content: flex-start;
+    }
+    #title-1{
+        font-size:1.6em;
+        margin:0;
+        align-self: last baseline;
+    }
+   
+    #title-2{
+        font-size:0.2em;
+        margin:0;
+        align-self: start;
+    }
+
+   
+
+    #models-nav{
+        font-size: 0.6em;
+    }
+
+    #restaurant-type-title{
+        font-size:0.6em;
+        padding:0.5em;
+    }
+
+    #contact-link{
+        font-size:0.6em;
+    }
+
+    #users-log-on-container{
+        margin-left:0;
+        padding:0;
+        align-items: center;
+    }
+    #sign-in-container{
+        justify-content: center;
+    }
+    #sign-in{
+        border:none;
+        width:fit-content;
+        font-size:0.3em;
+        padding:0.8em;
+    }
+    #sign-in:hover{
+        background-color: none;
+        box-shadow: none;
+    }
+
+    #nav-container-wrapper-2{
+        display:flex;
+        
+    }
+
+    #container-wrapper-1{
+        grid-template-columns: none;
+        padding:0.5rem;
+        justify-content: flex-start;
+    }
+
+    .image-container{
+        display:none;
+    }
+    
+    .img-container-model{
+        display:none;
+    }
+
+    .content-container{
+        
+        justify-self: flex-start;
+        width:fit-content;
+        gap:1em;
+    }
+    #find-heading{
+        font-size:1em;
+        width:fit-content;
+    }
+
+    #changing-heading{
+        font-size:1.5em;
+        width:fit-content;
+    }
+
+    #changing-content{
+        font-size:0.8em;
+        margin:0;
+    }
+
+    #static-content-container{
+        display:flex;
+        flex-direction:column;
+        gap:1em;
+    }
+
+    #changing-model-link{
+        width:fit-content;
+        justify-content: center;
+        font-size: 0.5em;
+        padding:0.5rem;
+    }
+
+    #insight-container{
+        width:fit-content;
+        padding:0;
+    }
+    .span-list{
+        font-size:0.8em;
+    }
+
+    #insight-ul{
+        gap:1em;
+    }
+    
+    #model-feature{
+        padding:1em;
+    }
+    .heading-main{
+        letter-spacing: 0;
+        font-size:1.2em;
+        text-align: center;
+    }
+
+    .user-name{
+        font-family:"Roboto"
+    }
+
+    .sub-heading{
+        font-size:0.5em;
+        text-align: center;
+        margin:0; 
+    }
+
+    .content-container-2{
+        grid-template-columns: auto;
+        padding:1rem;
+    }
+    .feature-container{
+        padding:0.5rem;
+    }
+
+    .img-container{
+        padding:0.5rem;
+    }
+
+    .heading{
+        font-size:1em;
+    }
+
+    .feature-overview-container{
+        padding:0.5rem;
+        margin:0;
+    }
+
+    .content{
+        text-align: center;
+        font-size:0.7em;
+    }
+
+    #models-section-container{
+        padding:1rem;
+    }
+
+    .model-link-section{
+        padding:0;
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+    }
+
+    .heading-container-inside{
+        text-align: center;
+    }
+
+    .heading-inside{
+        font-size:1.1em;
+        font-family:"Poppins"
+    }
+
+    .model-overview-container{
+        padding:0.5rem;
+    }
+    
+    .accuracy ,.trained-para-container{
+        padding:0.5rem;
+        font-size:0.6em;
+        width:fit-content;
+        text-align: center;
+    }
+
+    .get-btn-link{
+        padding:0.5rem;
+        font-family:"Poppins"
+    }
+
+    
+
+    #first-container{
+        padding:1rem;
+    }
+
+    #point-wrapper{
+        padding:0;
+        grid-template-columns: auto;
+        grid-auto-flow: row;
+        gap:1rem;
+    }
+
+    .heading-main-point{
+        margin:0;
+        font-size:0.8em;
+        font-family:"Poppins";
+        font-weight:500
+    }
+
+    #second-container{
+        grid-template-columns: auto;
+        grid-auto-flow: row;
+    }
+
+    .company-li{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #company-message-container{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #company-message{
+        font-size:0.5em;
+        width:fit-content;
+    }
+    #restaurant-type{
+        padding:1rem;
+    }
+    .restaurant-type-container{
+        grid-template-columns: auto;
+    }
+
+    #heading-sub-restaurant-type{
+        font-size:0.6em;
+        text-align: center;
+    }
+
+    .type{
+        padding:0.5rem;
+    }
+
+    .restaurant{
+        font-size:1em;
+        font-family:"Roboto"
+    }
+    
+    #contact{
+        padding:2rem;
+    }
+
+    .heading-sub-contact{
+        font-size:0.9em;
+        margin-right: auto;
+        margin-left: auto;
+        width:fit-content;
+        letter-spacing: 0.2rem;
+    }
+
+    #contact-form-container{
+        grid-template-columns: auto;
+        grid-auto-flow: row;
+        gap:1rem;
+    }
+
+    .send-mail{
+        font-size:0.7em;
+        font-family:"Poppins"
+    }
+   
+
+    #mail-box-wrapper{
+        grid-template-columns: auto;
+    }
+
+    #contact-input{
+        width:70vw;
+        padding:0.3rem;
+    }
+
+    #mail-img{
+        display:none;
+    }
+
+    #last-section{
+        grid-template-columns: auto;
+        grid-auto-flow: row;
+        gap:1rem;
+    }
+
+    #logo-info-container{
+        border-bottom:solid 0.5px orangered;
+    
+    }
+    #dev-message{
+        font-family:"Roboto";
+        font-weight:700;
+    }
+
+    #img-about{
+        display:none;
+    }
+
+    .content-contact{
+        font-size:0.7em
+    }
+    #developer-container{
+        display:flex;
+        justify-content: center;
+    }
+    
+}
+
+
+/* Add this to your stylesheet */
+.fade {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade.show {
+  opacity: 1;
+}
